@@ -51,7 +51,7 @@
 #mm = n1 * 1000
 #print ("A medida de {}m corresponde a \n {}km \n {}hm \n {}dam \n {}dm \n {}cm \n {}mm".format(n1, km, hm, dam, dm, cm, mm))
 
-#exercicio 9
+#exercicio 9 tabuada
 #tab = int(input("Digite um número para ver a tabuada: "))
 #print ("{} x 1 = {}".format(tab, tab*1))
 #print ("{} x 2 = {}".format(tab, tab*2))
@@ -63,9 +63,16 @@
 #print ("{} x 8 = {}".format(tab, tab*8))
 #print ("{} x 9 = {}".format(tab, tab*9))
 #print ("{} x 10 = {}".format(tab, tab*10))
-def tabuada():
-    tab = int(input("Digite um número para ver a tabuada: "))
-    for i in range(1, 11):
-        print ("{} x {} = {}".format(tab, i, tab*i))
-tabuada()
-#exercicio 10
+
+#============= ou =============
+
+#def tabuada():
+#    tab = int(input("Digite um número para ver a tabuada: "))
+#    for i in range(1, 11):
+#       print ("{} x {} = {}".format(tab, i, tab*i))
+#tabuada()
+
+# Modulos
+
+#import bebida = importa o modulo inteiro
+#from bebida import cerveja = importa apenas a função cerveja
