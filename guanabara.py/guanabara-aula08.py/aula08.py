@@ -212,11 +212,11 @@
 #exercicio31
 #Programa que pergunte a distancia de uma viagem em km. Calcule o preço da passagem cobrando R$ 0,50 por km para viagens até 200km e 0,45 para viagens mais longas
 
-viagem = float(input('Quantos km tem sua viagem ? '))
-if viagem >= 200:
-    print('Sua viagem será R$ {:.2f}'.format(viagem + 0.45 ))
-else:
-    print('Sua viagem custará R$ {:.2f}'.format(viagem + 0.50))
+#viagem = float(input('Quantos km tem sua viagem ? '))
+#if viagem >= 200:
+#    print('Sua viagem será R$ {:.2f}'.format(viagem + 0.45 ))
+#else:
+#    print('Sua viagem custará R$ {:.2f}'.format(viagem + 0.50))
 
 
  
